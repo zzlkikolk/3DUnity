@@ -1,0 +1,17 @@
+<sbspresets formatversion="1.0" count="2">
+ <sbspreset pkgurl="pkg://Transparent_Ice/Transparent_Ice" label="var01">
+  <presetinput identifier="$outputsize" uid="2482213064" type="8" value="9,9"/>
+  <presetinput identifier="Cracks" uid="2519730106" type="0" value="0.685"/>
+  <presetinput identifier="Ice_Thickness" uid="2521302276" type="0" value="1"/>
+  <presetinput identifier="Opacity" uid="2521304814" type="0" value="1"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Transparent_Ice/Transparent_Ice" label="var02">
+  <presetinput identifier="$outputsize" uid="2482213064" type="8" value="9,9"/>
+  <presetinput identifier="Cracks" uid="2519730106" type="0" value="1"/>
+  <presetinput identifier="Ice_Thickness" uid="2521302276" type="0" value="0.221"/>
+  <presetinput identifier="Opacity" uid="2521304814" type="0" value="0.344"/>
+  <presetinput identifier="Luminosity" uid="2533453311" type="0" value="0.498"/>
+  <presetinput identifier="Emboss" uid="2542015441" type="0" value="0.258"/>
+  <presetinput identifier="Depth" uid="2542546706" type="0" value="-1"/>
+ </sbspreset>
+</sbspresets>

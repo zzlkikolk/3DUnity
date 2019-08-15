@@ -1,0 +1,32 @@
+<sbspresets formatversion="1.0" count="4">
+ <sbspreset pkgurl="pkg://Stained_Glass/Stained_Glass" label="var01">
+  <presetinput identifier="Pattern" uid="2198884705" type="4" value="2"/>
+  <presetinput identifier="Refraction" uid="2199890657" type="0" value="1"/>
+  <presetinput identifier="$outputsize" uid="2253391794" type="8" value="9,9"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Stained_Glass/Stained_Glass" label="var02">
+  <presetinput identifier="Pattern" uid="2198884705" type="4" value="3"/>
+  <presetinput identifier="Opacity" uid="2199890595" type="0" value="0.274"/>
+  <presetinput identifier="Refraction" uid="2199890657" type="0" value="1"/>
+  <presetinput identifier="$outputsize" uid="2253391794" type="8" value="9,9"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Stained_Glass/Stained_Glass" label="var03">
+  <presetinput identifier="Pattern" uid="2198884705" type="4" value="4"/>
+  <presetinput identifier="Opacity" uid="2199890595" type="0" value="0.274"/>
+  <presetinput identifier="Refraction" uid="2199890657" type="0" value="1"/>
+  <presetinput identifier="$outputsize" uid="2253391794" type="8" value="9,9"/>
+  <presetinput identifier="$randomseed" uid="3508670944" type="4" value="1965860813"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Stained_Glass/Stained_Glass" label="var04">
+  <presetinput identifier="$randomseed" uid="2464073993" type="4" value="-2022068485"/>
+  <presetinput identifier="Details_Density" uid="3236126848" type="4" value="3"/>
+  <presetinput identifier="Details_Pattern" uid="3236126850" type="4" value="2"/>
+  <presetinput identifier="Details_Intensity" uid="3236130769" type="0" value="1"/>
+  <presetinput identifier="Refraction" uid="3236131336" type="0" value="1"/>
+  <presetinput identifier="Opacity" uid="3236131402" type="0" value="0.15"/>
+  <presetinput identifier="Blur" uid="3236727848" type="0" value="0.193"/>
+  <presetinput identifier="Depth" uid="3251855489" type="0" value="-1"/>
+  <presetinput identifier="Emboss" uid="3252378690" type="0" value="0.438"/>
+  <presetinput identifier="$outputsize" uid="3316440923" type="8" value="9,9"/>
+ </sbspreset>
+</sbspresets>

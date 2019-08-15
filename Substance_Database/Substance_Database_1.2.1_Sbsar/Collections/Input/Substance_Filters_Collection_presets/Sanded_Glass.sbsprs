@@ -1,0 +1,25 @@
+<sbspresets formatversion="1.0" count="3">
+ <sbspreset pkgurl="pkg://Sanded_Glass/Sanded_Glass" label="var01">
+  <presetinput identifier="Blur" uid="2209198371" type="0" value="10"/>
+  <presetinput identifier="Sliding" uid="2209198836" type="0" value="0.408"/>
+  <presetinput identifier="$outputsize" uid="2251737485" type="8" value="9,9"/>
+  <presetinput identifier="Glass_Color" uid="4251365701" type="2" value="0.431,0.459,0.616"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Sanded_Glass/Sanded_Glass" label="var02">
+  <presetinput identifier="Glass_Details" uid="2202450618" type="4" value="1"/>
+  <presetinput identifier="Pattern_Opacity" uid="2205605861" type="0" value="1"/>
+  <presetinput identifier="Blur" uid="2209198371" type="0" value="10"/>
+  <presetinput identifier="$outputsize" uid="2251737485" type="8" value="9,9"/>
+  <presetinput identifier="Glass_Color" uid="4251365701" type="2" value="0.976,0.976,0.976"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Sanded_Glass/Sanded_Glass" label="var03">
+  <presetinput identifier="Glass_Details" uid="2202450618" type="4" value="2"/>
+  <presetinput identifier="Pattern_Size" uid="2205600690" type="0" value="1"/>
+  <presetinput identifier="Pattern_Opacity" uid="2205605861" type="0" value="1"/>
+  <presetinput identifier="Blur" uid="2209198371" type="0" value="10"/>
+  <presetinput identifier="Sliding" uid="2209198836" type="0" value="0.691"/>
+  <presetinput identifier="$outputsize" uid="2251737485" type="8" value="9,9"/>
+  <presetinput identifier="$randomseed" uid="3510951903" type="4" value="-752814796"/>
+  <presetinput identifier="Glass_Color" uid="4251365701" type="2" value="1,1,1"/>
+ </sbspreset>
+</sbspresets>

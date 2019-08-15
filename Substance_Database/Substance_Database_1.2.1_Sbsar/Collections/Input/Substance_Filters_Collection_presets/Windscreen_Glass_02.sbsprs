@@ -1,0 +1,24 @@
+<sbspresets formatversion="1.0" count="3">
+ <sbspreset pkgurl="pkg://Windscreen_Glass_02/Windscreen_Glass_02" label="var02">
+  <presetinput identifier="$outputsize" uid="2421676436" type="8" value="9,9"/>
+  <presetinput identifier="Cracks" uid="2500774769" type="0" value="0.662"/>
+  <presetinput identifier="Blur" uid="2513215802" type="0" value="1"/>
+  <presetinput identifier="Thickness" uid="2515553854" type="0" value="1"/>
+  <presetinput identifier="$randomseed" uid="3341144006" type="4" value="1147124689"/>
+  <presetinput identifier="Glass_Color" uid="3943153817" type="2" value="0.349,0.4,0.424"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Windscreen_Glass_02/Windscreen_Glass_02" label="var01">
+  <presetinput identifier="$outputsize" uid="2421676436" type="8" value="9,9"/>
+  <presetinput identifier="Glass_Opacity" uid="2513217029" type="0" value="0.594"/>
+  <presetinput identifier="Cracks_Number" uid="2515552836" type="4" value="1"/>
+  <presetinput identifier="Glass_Color" uid="3943153817" type="2" value="0.498,0.529,0.569"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Windscreen_Glass_02/Windscreen_Glass_02" label="var03">
+  <presetinput identifier="$outputsize" uid="2421676436" type="8" value="9,9"/>
+  <presetinput identifier="Cracks" uid="2500774769" type="0" value="0.662"/>
+  <presetinput identifier="Cracks_Number" uid="2515552836" type="4" value="2"/>
+  <presetinput identifier="Thickness" uid="2515553854" type="0" value="1"/>
+  <presetinput identifier="$randomseed" uid="3341144006" type="4" value="-1345524282"/>
+  <presetinput identifier="Glass_Color" uid="3943153817" type="2" value="0.349,0.4,0.424"/>
+ </sbspreset>
+</sbspresets>

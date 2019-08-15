@@ -1,0 +1,27 @@
+<sbspresets formatversion="1.0" count="3">
+ <sbspreset pkgurl="pkg://Old_Parchment/Old_Parchment" label="var01">
+  <presetinput identifier="$outputsize" uid="1890092845" type="8" value="9,9"/>
+  <presetinput identifier="Use_Input" uid="1964772460" type="0" value="0.536"/>
+  <presetinput identifier="Border" uid="1966700955" type="4" value="0"/>
+  <presetinput identifier="Fibers" uid="1969280822" type="0" value="1"/>
+  <presetinput identifier="Age" uid="1969286988" type="0" value="0.238"/>
+  <presetinput identifier="Fire" uid="1969353352" type="0" value="0"/>
+  <presetinput identifier="Combustion" uid="1970211170" type="0" value="0"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Old_Parchment/Old_Parchment" label="var02">
+  <presetinput identifier="$randomseed" uid="668635519" type="4" value="-642787412"/>
+  <presetinput identifier="$outputsize" uid="1890092845" type="8" value="9,9"/>
+  <presetinput identifier="Use_Input" uid="1964772460" type="0" value="0.536"/>
+  <presetinput identifier="Fibers" uid="1969280822" type="0" value="1"/>
+  <presetinput identifier="Age" uid="1969286988" type="0" value="0.238"/>
+  <presetinput identifier="Combustion" uid="1970211170" type="0" value="0.199"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Old_Parchment/Old_Parchment" label="var03">
+  <presetinput identifier="$randomseed" uid="668635519" type="4" value="-642787412"/>
+  <presetinput identifier="$outputsize" uid="1890092845" type="8" value="9,9"/>
+  <presetinput identifier="Use_Input" uid="1964772460" type="0" value="0.536"/>
+  <presetinput identifier="Fibers" uid="1969280822" type="0" value="1"/>
+  <presetinput identifier="Age" uid="1969286988" type="0" value="0.322"/>
+  <presetinput identifier="Combustion" uid="1970211170" type="0" value="0.568"/>
+ </sbspreset>
+</sbspresets>

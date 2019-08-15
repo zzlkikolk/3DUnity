@@ -1,0 +1,27 @@
+<sbspresets formatversion="1.0" count="3">
+ <sbspreset pkgurl="pkg://Water_Drips/Water_Drips" label="var02">
+  <presetinput identifier="Input_Blur" uid="388309380" type="0" value="0.228"/>
+  <presetinput identifier="$randomseed" uid="990375723" type="4" value="657880254"/>
+  <presetinput identifier="Refraction" uid="1772657454" type="0" value="0.701"/>
+  <presetinput identifier="Trails_Angle" uid="1772657655" type="0" value="0.925"/>
+  <presetinput identifier="Trails" uid="1772657660" type="0" value="1"/>
+  <presetinput identifier="Drips_Scale" uid="1772659697" type="4" value="15"/>
+  <presetinput identifier="Drips_Size" uid="1773017462" type="0" value="4.209"/>
+  <presetinput identifier="$outputsize" uid="1819670905" type="8" value="9,9"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Water_Drips/Water_Drips" label="var01">
+  <presetinput identifier="Trails_Angle" uid="1772657655" type="0" value="0.65"/>
+  <presetinput identifier="Drips_Scale" uid="1772659697" type="4" value="7"/>
+  <presetinput identifier="$outputsize" uid="1819670905" type="8" value="9,9"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Water_Drips/Water_Drips" label="var03">
+  <presetinput identifier="Input_Blur" uid="388309380" type="0" value="1"/>
+  <presetinput identifier="$randomseed" uid="990375723" type="4" value="657880254"/>
+  <presetinput identifier="Refraction" uid="1772657454" type="0" value="1"/>
+  <presetinput identifier="Trails_Angle" uid="1772657655" type="0" value="0.925"/>
+  <presetinput identifier="Trails" uid="1772657660" type="0" value="0.898"/>
+  <presetinput identifier="Drips_Scale" uid="1772659697" type="4" value="11"/>
+  <presetinput identifier="Drips_Size" uid="1773017462" type="0" value="9.023"/>
+  <presetinput identifier="$outputsize" uid="1819670905" type="8" value="9,9"/>
+ </sbspreset>
+</sbspresets>

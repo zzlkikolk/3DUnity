@@ -1,0 +1,35 @@
+<sbspresets formatversion="1.0" count="5">
+ <sbspreset pkgurl="pkg://Tunnel/Tunnel" label="var01">
+  <presetinput identifier="Number" uid="2308373496" type="4" value="8"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Tunnel/Tunnel" label="var02">
+  <presetinput identifier="Number" uid="2308373496" type="4" value="58"/>
+  <presetinput identifier="Offset_X" uid="2308653545" type="0" value="-0.211"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Tunnel/Tunnel" label="var03">
+  <presetinput identifier="Contrast" uid="2288895106" type="0" value="0.027"/>
+  <presetinput identifier="Offset_Y" uid="2308347391" type="0" value="0.002"/>
+  <presetinput identifier="Speed" uid="2308347610" type="0" value="0.023"/>
+  <presetinput identifier="Branches" uid="2308350778" type="4" value="52"/>
+  <presetinput identifier="Number" uid="2308373496" type="4" value="22"/>
+  <presetinput identifier="Offset_X" uid="2308653545" type="0" value="-0.055"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Tunnel/Tunnel" label="var04">
+  <presetinput identifier="Contrast" uid="2288895106" type="0" value="0.027"/>
+  <presetinput identifier="Blend_Type" uid="2302256703" type="4" value="0"/>
+  <presetinput identifier="Offset_Y" uid="2308347391" type="0" value="0.002"/>
+  <presetinput identifier="Speed" uid="2308347610" type="0" value="0.023"/>
+  <presetinput identifier="Branches" uid="2308350778" type="4" value="52"/>
+  <presetinput identifier="Number" uid="2308373496" type="4" value="22"/>
+  <presetinput identifier="Offset_X" uid="2308653545" type="0" value="-0.055"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Tunnel/Tunnel" label="var05">
+  <presetinput identifier="Contrast" uid="2288895106" type="0" value="0.027"/>
+  <presetinput identifier="Blend_Type" uid="2302256703" type="4" value="0"/>
+  <presetinput identifier="Offset_Y" uid="2308347391" type="0" value="0.002"/>
+  <presetinput identifier="Speed" uid="2308347610" type="0" value="0.023"/>
+  <presetinput identifier="Branches" uid="2308350778" type="4" value="1"/>
+  <presetinput identifier="Number" uid="2308373496" type="4" value="21"/>
+  <presetinput identifier="Offset_X" uid="2308653545" type="0" value="-0.055"/>
+ </sbspreset>
+</sbspresets>

@@ -1,0 +1,29 @@
+<sbspresets formatversion="1.0" count="4">
+ <sbspreset pkgurl="pkg://Water_Drops/Water_Drops" label="var01">
+  <presetinput identifier="Vapour_Mist" uid="2980934181" type="0" value="1"/>
+  <presetinput identifier="Specular_Amount" uid="2981015763" type="0" value="0.86"/>
+  <presetinput identifier="Refraction" uid="2983533733" type="0" value="1"/>
+  <presetinput identifier="Drops_Scale" uid="2983535738" type="4" value="12"/>
+  <presetinput identifier="$outputsize" uid="3020455666" type="8" value="9,9"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Water_Drops/Water_Drops" label="var02">
+  <presetinput identifier="Vapour_Mist" uid="2980934181" type="0" value="1"/>
+  <presetinput identifier="Specular_Amount" uid="2981015763" type="0" value="0.751"/>
+  <presetinput identifier="Drops_Size" uid="2983436029" type="0" value="3.574"/>
+  <presetinput identifier="Emboss" uid="2983533673" type="0" value="0.49"/>
+  <presetinput identifier="Refraction" uid="2983533733" type="0" value="1"/>
+  <presetinput identifier="Drops_Scale" uid="2983535738" type="4" value="15"/>
+  <presetinput identifier="$outputsize" uid="3020455666" type="8" value="9,9"/>
+  <presetinput identifier="$randomseed" uid="3816450208" type="4" value="780779349"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Water_Drops/Water_Drops" label="var03">
+  <presetinput identifier="$outputsize" uid="2295776686" type="8" value="9,9"/>
+  <presetinput identifier="Drops_Scale" uid="2366349094" type="4" value="15"/>
+  <presetinput identifier="Emboss" uid="2366351157" type="0" value="0.632"/>
+  <presetinput identifier="Refraction" uid="2366351353" type="0" value="1"/>
+  <presetinput identifier="Drops_Size" uid="2366449057" type="0" value="6.191"/>
+  <presetinput identifier="Specular_Amount" uid="2372930447" type="0" value="0.751"/>
+  <presetinput identifier="Vapour_Mist" uid="2373175673" type="0" value="0.884"/>
+  <presetinput identifier="$randomseed" uid="3752121340" type="4" value="780779349"/>
+ </sbspreset>
+</sbspresets>

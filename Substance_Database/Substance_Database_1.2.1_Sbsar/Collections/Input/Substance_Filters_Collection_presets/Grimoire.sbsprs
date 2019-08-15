@@ -1,0 +1,31 @@
+<sbspresets formatversion="1.0" count="3">
+ <sbspreset pkgurl="pkg://Grimoire/Grimoire" label="var01">
+  <presetinput identifier="$randomseed" uid="411874076" type="4" value="-583759448"/>
+  <presetinput identifier="AO_Strenght" uid="1247363809" type="0" value="1"/>
+  <presetinput identifier="Hinge_Type" uid="1247376488" type="4" value="0"/>
+  <presetinput identifier="AO_Warp" uid="1247377097" type="0" value="0.013"/>
+  <presetinput identifier="Leather_Age" uid="1248759000" type="0" value="1"/>
+  <presetinput identifier="$outputsize" uid="1342088526" type="8" value="9,9"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Grimoire/Grimoire" label="var02">
+  <presetinput identifier="$outputsize" uid="3004323493" type="8" value="9,9"/>
+  <presetinput identifier="Leather_Age" uid="3062005555" type="0" value="1"/>
+  <presetinput identifier="AO_Warp" uid="3065349410" type="0" value="0.013"/>
+  <presetinput identifier="Hinge_Type" uid="3065350019" type="4" value="2"/>
+  <presetinput identifier="AO_Strenght" uid="3065360650" type="0" value="1"/>
+  <presetinput identifier="AO_Spread" uid="3065371716" type="0" value="0.693"/>
+  <presetinput identifier="Invert_Input_Color" uid="3378401842" type="4" value="1"/>
+  <presetinput identifier="$randomseed" uid="3831513335" type="4" value="509428844"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Grimoire/Grimoire" label="var03">
+  <presetinput identifier="$outputsize" uid="3110678465" type="8" value="9,9"/>
+  <presetinput identifier="AO_Spread" uid="3167659296" type="0" value="0.693"/>
+  <presetinput identifier="Detail_Hue" uid="3167659745" type="0" value="0.95"/>
+  <presetinput identifier="AO_Strenght" uid="3167668334" type="0" value="1"/>
+  <presetinput identifier="Hinge_Offset_X" uid="3167681011" type="0" value="0.028"/>
+  <presetinput identifier="AO_Warp" uid="3167681606" type="0" value="0.013"/>
+  <presetinput identifier="Hinge_Type" uid="3167682279" type="4" value="2"/>
+  <presetinput identifier="Leather_Age" uid="3170436695" type="0" value="1"/>
+  <presetinput identifier="$randomseed" uid="3994761619" type="4" value="509428844"/>
+ </sbspreset>
+</sbspresets>

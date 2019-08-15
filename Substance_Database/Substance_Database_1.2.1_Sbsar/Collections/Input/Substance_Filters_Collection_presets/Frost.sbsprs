@@ -1,0 +1,16 @@
+<sbspresets formatversion="1.0" count="2">
+ <sbspreset pkgurl="pkg://Frost/Frost" label="var01">
+  <presetinput identifier="$randomseed" uid="2591110639" type="4" value="-1713684938"/>
+  <presetinput identifier="Opacity" uid="3367550363" type="0" value="0.862"/>
+  <presetinput identifier="Density" uid="3368072399" type="0" value="1"/>
+  <presetinput identifier="$outputsize" uid="3439535037" type="8" value="9,9"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Frost/Frost" label="var02">
+  <presetinput identifier="$randomseed" uid="2591110639" type="4" value="-1614207344"/>
+  <presetinput identifier="Noisy" uid="3360449374" type="0" value="1"/>
+  <presetinput identifier="Roughness" uid="3362984269" type="0" value="0.202"/>
+  <presetinput identifier="Opacity" uid="3367550363" type="0" value="1"/>
+  <presetinput identifier="Density" uid="3368072399" type="0" value="1"/>
+  <presetinput identifier="$outputsize" uid="3439535037" type="8" value="9,9"/>
+ </sbspreset>
+</sbspresets>

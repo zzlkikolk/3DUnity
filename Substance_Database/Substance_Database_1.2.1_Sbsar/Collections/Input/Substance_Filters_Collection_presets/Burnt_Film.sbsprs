@@ -1,0 +1,21 @@
+<sbspresets formatversion="1.0" count="4">
+ <sbspreset pkgurl="pkg://Burnt_Film/Burnt_Film" label="var01">
+  <presetinput identifier="$outputsize" uid="951029607" type="8" value="9,9"/>
+  <presetinput identifier="Burn" uid="1025022611" type="0" value="0.396"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Burnt_Film/Burnt_Film" label="var02">
+  <presetinput identifier="$outputsize" uid="951029607" type="8" value="9,9"/>
+  <presetinput identifier="Burn" uid="1025022611" type="0" value="0.734"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Burnt_Film/Burnt_Film" label="var03">
+  <presetinput identifier="$outputsize" uid="951029607" type="8" value="9,9"/>
+  <presetinput identifier="Burn" uid="1025022611" type="0" value="0.914"/>
+ </sbspreset>
+ <sbspreset pkgurl="pkg://Burnt_Film/Burnt_Film" label="var04">
+  <presetinput identifier="$outputsize" uid="951029607" type="8" value="9,9"/>
+  <presetinput identifier="Negative" uid="1024657536" type="4" value="1"/>
+  <presetinput identifier="Waveform" uid="1024657586" type="4" value="1"/>
+  <presetinput identifier="Format_Ratio" uid="1024658665" type="0" value="1.754"/>
+  <presetinput identifier="Type" uid="1038249105" type="4" value="1"/>
+ </sbspreset>
+</sbspresets>
