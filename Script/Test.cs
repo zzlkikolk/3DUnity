@@ -90,6 +90,7 @@ public class Test : MonoBehaviour
             if (Time.timeScale == 1)
             {
                 Time.timeScale = 0;
+               // Audio.Pause();
                 canvas.SetActive(true);
             }
 
