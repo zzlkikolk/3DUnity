@@ -1,16 +1,26 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class missileScript : MonoBehaviour
 {
     //private int Speed = 20;
 
+    //飞机本体
+    public GameObject AirPlane;
     //被发射的
     public GameObject Bullet;
+    
+    //显示的弹药
+    private Text t_1;
     //复制的导弹
     private GameObject b;
-    
+    //飞机信息
+    public Canvas Massage;
+    //发射导弹的数量
+    public int Num;
     public GameObject B;
     //发射速度
     public float Bullet_Speed = 80;
@@ -20,7 +30,8 @@ public class missileScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Debug.LogFormat("导弹大小"+Bullet.transform.localScale);
+        t_1=Massage.transform.Find("子弹数").GetComponent<Text>();
+        t_1.text = Convert.ToString(Num);
     }
 
     // Update is called once per frame
@@ -34,11 +45,18 @@ public class missileScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.J))
         {
-            b = GameObject.Instantiate(Bullet,new Vector3(transform.position.x,transform.position.y,transform.position.z),transform.rotation);
-            Rigidbody rgd = b.GetComponent<Rigidbody>();//获得游戏刚体组件
-           // Transform tra = b.GetComponent<Transform>();
-            rgd.velocity = transform.forward * Bullet_Speed;//设置速度velocity
-            rgd.isKinematic = false;
+            if (Num > 0)
+            {
+                b = GameObject.Instantiate(Bullet,
+                    new Vector3(transform.position.x, transform.position.y, transform.position.z), transform.rotation);
+                b.transform.parent = AirPlane.transform; //把复制出来的导弹作为飞机的子物体
+                Rigidbody rgd = b.GetComponent<Rigidbody>(); //获得游戏刚体组件
+                // Transform tra = b.GetComponent<Transform>();
+                rgd.velocity = transform.forward * Bullet_Speed; //设置速度velocity
+                rgd.isKinematic = false;
+                Num--; //复制的导弹数量
+                t_1.text = Convert.ToString(Num);
+            }
 
         }
     }
