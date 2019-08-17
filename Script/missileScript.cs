@@ -20,7 +20,7 @@ public class missileScript : MonoBehaviour
     //飞机信息
     public Canvas Massage;
     //发射导弹的数量
-    public int Num;
+    public int Num=150;
     public GameObject B;
     //发射速度
     public float Bullet_Speed = 80;

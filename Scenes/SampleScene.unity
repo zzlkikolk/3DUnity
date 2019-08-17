@@ -315,9 +315,9 @@ RectTransform:
   m_Father: {fileID: 1316031391}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 358.2, y: -179.7}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -173.79999, y: 30.300003}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143163666
@@ -667,10 +667,10 @@ RectTransform:
   m_Father: {fileID: 1316031391}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 365, y: -133.5}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -167, y: -133.5}
+  m_SizeDelta: {x: 50, y: -370}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195020855
 MonoBehaviour:
@@ -983,6 +983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AirPlane: {fileID: 0}
   Bullet: {fileID: 0}
+  Massage: {fileID: 0}
   Num: 0
   B: {fileID: 0}
   Bullet_Speed: 20
@@ -1006,7 +1007,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AirPlane: {fileID: 277250719}
   Bullet: {fileID: 175757716}
-  Num: 0
+  Massage: {fileID: 1316031394}
+  Num: 150
   B: {fileID: 1212120745}
   Bullet_Speed: 80
 --- !u!4 &277250721 stripped
@@ -1125,21 +1127,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texture: {fileID: 2800000, guid: 71f331676675f6544830439d014e8a98, type: 3}
   canvas: {fileID: 0}
---- !u!114 &277250724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277250719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f9312a56b76484478df0537ac334604, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  massage: {fileID: 1316031394}
-  Text: {fileID: 920654455}
-  Airplane: {fileID: 277250719}
 --- !u!1 &384974175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,9 +1339,9 @@ RectTransform:
   m_Father: {fileID: 1316031391}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 468, y: -135}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -64, y: 75}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &649326457
@@ -1624,9 +1611,9 @@ RectTransform:
   m_Father: {fileID: 1316031391}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 439.1, y: -184.99998}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -92.899994, y: 25.000015}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &920654455
@@ -2179,6 +2166,7 @@ GameObject:
   - component: {fileID: 1649434997}
   - component: {fileID: 1649434996}
   - component: {fileID: 1649434995}
+  - component: {fileID: 1649434998}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -2247,6 +2235,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1649434998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649434994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b9612ff7879534e92ea3c718f6f8d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPC: {fileID: 2083135688}
 --- !u!1 &1659890375
 GameObject:
   m_ObjectHideFlags: 0

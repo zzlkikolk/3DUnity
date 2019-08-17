@@ -85,8 +85,6 @@ public class Test : MonoBehaviour
         
         if (Input.GetKey(KeyCode.Escape))
         {
-            print("按下了ESC");
-
             if (Time.timeScale == 1)
             {
                 Time.timeScale = 0;
@@ -123,7 +121,7 @@ public class Test : MonoBehaviour
         {
             SpaceKeyTime += Time.deltaTime;
             rigidbody_Fj.drag = SpaceKeyTime * 1;
-            airfoil.speed = SpaceKeyTime / 5;
+            airfoil.speed = SpaceKeyTime / 5;//机翼动画
             if (airfoil.speed <0.01&&airfoil.speed>0)
             {
                 Audio.Play();
